@@ -20,6 +20,8 @@ background-color: antiquewhite
 
 
 
+
+
 /**//**//**//**//**//**//**//**//*  absolute  *//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 .absolutn{position:absolute;margin:20px}
 .roof_ab{position:absolute;width:0;height:0;border-bottom:200px solid black;border-left:300px solid transparent;border-right:300px solid transparent}
@@ -35,20 +37,22 @@ background-color: antiquewhite
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 
+
+
 /**//**//**//**//**//**//**//**//*  relative  *//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 .rel{position:relative;margin:20px}
-.roof_rel{position:relative;
-top:750px;    
-width:0;height:0;border-bottom:200px solid black;border-left:300px solid transparent;border-right:300px solid transparent}
+.roof_rel{position:relative;top:750px;width:0;height:0;border-bottom:200px solid black;border-left:300px solid transparent;border-right:300px solid transparent}
 .house__wall_rel{top:750px; border:1px solid #00f;background:brown;position:relative;width:600px;height:500px}
 .wall__window_left_rel{position:relative;background:blue;left:100px;top:100px;border:1px solid black;width:100px;height:100px}
 .wall__window_right_rel{position:relative;background:blue;left:400px;width:100px;height:100px;border:1px solid black}
-.wall__door_rel{position:relative;border:1px solid black;background:#212121;top:45px;width:150px;height:50%;margin-left:225px}
+.wall__door_rel{position:relative;border:1px solid black;background:#212121;bottom:0;width:150px;height:50%;margin-left:225px}
 .window__frame_vertical_rel{position:relative;background:#212121;left:50px;width:2px;height:100px}
 .window__frame_horizontal_rel{position:relative;background:#212121;bottom:-50px;width:100px;height:2px}
-/*name
-.simple-but{position:relative;margin-bottom:7px;width:70%;display:block;border-radius:9px;border:1px solid #000;background:#0b9600;font-weight:700;color:#d2d2d2;font-size:70%;padding:5px 10px 0;text-align:center;height:31px;left:75px;top:5px}
-*/
+/*name*/
+.simple-but_rel{position:relative;margin-bottom:7px;width:70%;display:block;border-radius:9px;border:1px solid #000;background:#0b9600;font-weight:700;color:#d2d2d2;font-size:70%;padding:5px 10px 0;text-align:center;height:31px;left:75px;top:5px}
+
+
+
 
 
 /**//**//**//**//**//**//**//**//*  static  *//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -60,6 +64,6 @@ width:0;height:0;border-bottom:200px solid black;border-left:300px solid transpa
 .wall__door_static{border:1px solid black;background:#212121;margin-top:0; width:150px;height:51%;margin-left:225px}
 .window__frame_vertical_static{background:#212121;margin-left:50px;margin-top:-50%;width:2px;height:100px}
 .window__frame_horizontal_static2{background:#212121;margin-top:50%;width:100px;height:2px}
-
+/*name*/
 .simple-but_static{margin-left:10%;margin-bottom:7px;width:70%;display:block;border-radius:9px;border:1px solid #000;background:#0b9600;font-weight:700;color:#d2d2d2;font-size:70%;padding:5px 10px 0;text-align:center;height:31px;left:75px;top:5px}
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
